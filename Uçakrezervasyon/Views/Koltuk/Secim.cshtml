@@ -1,0 +1,44 @@
+﻿@model UcakRezervasyon.ViewModels.KoltukSecimViewModel
+
+@{
+    ViewData["Title"] = "Koltuk Seçimi";
+}
+
+<h2>Koltuk Seçimi</h2>
+
+<form asp-action="Secim" method="post">
+    <input type="hidden" asp-for="ucusId" />
+
+    @foreach (var koltuk in Model.Koltuklar)
+    {
+        <div class="koltuk">
+            @if (koltuk.DoluMu== true)
+            {
+                <input type="radio" name="SecilenKoltukNo" value="@koltuk.KoltukNo" id="koltuk-@koltuk.KoltukNo" disabled />
+            }
+            else
+            {
+                <input type="radio" name="SecilenKoltukNo" value="@koltuk.KoltukNo" id="koltuk-@koltuk.KoltukNo" />
+            }
+            <label for="koltuk-@koltuk.KoltukNo">@koltuk.KoltukNo</label>
+        </div>
+    }
+
+
+    <button type="submit" value="Create" class="btn btn-primary">Rezervasyon Yap</button>
+</form>
+
+<style>
+    .koltuklar {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .koltuk {
+        margin-right: 10px;
+    }
+
+        .koltuk input[type="radio"]:disabled + label {
+            color: red;
+        }
+</style>

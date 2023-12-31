@@ -1,0 +1,53 @@
+﻿@model IEnumerable<UcakRezervasyon.Models.ucus>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ucak)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.guzergah)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ucak.ucakName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.guzergah.guzergahName)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ucusId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.ucusId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ucusId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+<h2>Uçuş Seçimi</h2>
+<ul>
+    @foreach (var ucus in Model)
+    {
+        <li>
+            <a asp-action="Secim" asp-controller="Koltuk" asp-route-ucusId="@ucus.ucusId">
+                Uçuş Numarası: @ucus.ucusId
+            </a>
+        </li>
+    }
+</ul>
