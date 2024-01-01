@@ -1,53 +1,54 @@
 ﻿@model IEnumerable<UcakRezervasyon.Models.ucus>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Uçuş Listesi";
 }
 
-<h1>Index</h1>
+<div class="container mt-5">
+    <h1 class="mb-4">@ViewData["Title"]</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.ucak)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.guzergah)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.ucak.ucakName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.guzergah.guzergahName)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.ucusId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.ucusId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.ucusId">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+    <div class="mb-3">
+        <a asp-action="Create" class="btn btn-success">Yeni Uçuş Oluştur</a>
+    </div>
 
-<h2>Uçuş Seçimi</h2>
-<ul>
-    @foreach (var ucus in Model)
-    {
-        <li>
-            <a asp-action="Secim" asp-controller="Koltuk" asp-route-ucusId="@ucus.ucusId">
-                Uçuş Numarası: @ucus.ucusId
-            </a>
-        </li>
-    }
-</ul>
+    <div class="card">
+        <div class="card-header">
+            Mevcut Uçuşlar
+        </div>
+        <table class="table table-hover mb-0">
+            <thead class="table-light">
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.ucak.ucakName)</th>
+                    <th>@Html.DisplayNameFor(model => model.guzergah.guzergahName)</th>
+                    <th>İşlemler</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.ucak.ucakName)</td>
+                        <td>@Html.DisplayFor(modelItem => item.guzergah.guzergahName)</td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.ucusId" class="btn btn-sm btn-outline-primary">Düzenle</a>
+                            <a asp-action="Details" asp-route-id="@item.ucusId" class="btn btn-sm btn-outline-secondary">Detaylar</a>
+                            <a asp-action="Delete" asp-route-id="@item.ucusId" class="btn btn-sm btn-outline-danger">Sil</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <h2 class="mt-5">Uçuş Seçimi</h2>
+    <ul class="list-group">
+        @foreach (var ucus in Model)
+        {
+            <li class="list-group-item">
+                <a asp-action="Secim" asp-controller="Koltuk" asp-route-ucusId="@ucus.ucusId">
+                    Uçuş Numarası: @ucus.ucusId
+                </a>
+            </li>
+        }
+    </ul>
+</div>

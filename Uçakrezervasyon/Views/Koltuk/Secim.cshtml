@@ -4,41 +4,79 @@
     ViewData["Title"] = "Koltuk Seçimi";
 }
 
-<h2>Koltuk Seçimi</h2>
+<div class="container my-5">
+    <h2 class="text-center mb-4">@ViewData["Title"]</h2>
 
-<form asp-action="Secim" method="post">
-    <input type="hidden" asp-for="ucusId" />
+    <form asp-action="Secim" method="post" class="koltuk-form">
+        <input type="hidden" asp-for="ucusId" />
 
-    @foreach (var koltuk in Model.Koltuklar)
-    {
-        <div class="koltuk">
-            @if (koltuk.DoluMu== true)
+        <div class="kabin">
+            @foreach (var koltuk in Model.Koltuklar)
             {
-                <input type="radio" name="SecilenKoltukNo" value="@koltuk.KoltukNo" id="koltuk-@koltuk.KoltukNo" disabled />
+                <div class="koltuk @(koltuk.DoluMu ? "dolu" : "bos")">
+                    <input type="radio" name="SecilenKoltukNo" value="@koltuk.KoltukNo" id="koltuk-@koltuk.KoltukNo" @(koltuk.DoluMu ? "disabled" : "") />
+                    <label for="koltuk-@koltuk.KoltukNo">@koltuk.KoltukNo</label>
+                </div>
             }
-            else
-            {
-                <input type="radio" name="SecilenKoltukNo" value="@koltuk.KoltukNo" id="koltuk-@koltuk.KoltukNo" />
-            }
-            <label for="koltuk-@koltuk.KoltukNo">@koltuk.KoltukNo</label>
         </div>
-    }
 
-
-    <button type="submit" value="Create" class="btn btn-primary">Rezervasyon Yap</button>
-</form>
+        <div class="text-center mt-4">
+            <button type="submit" class="btn btn-lg btn-outline-success">Rezervasyon Yap</button>
+        </div>
+    </form>
+</div>
 
 <style>
-    .koltuklar {
-        display: flex;
-        flex-wrap: wrap;
+    .kabin {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 15px;
+        justify-items: center;
     }
 
     .koltuk {
-        margin-right: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        transition: all 0.3s ease;
     }
 
-        .koltuk input[type="radio"]:disabled + label {
-            color: red;
+        .koltuk input[type="radio"] {
+            opacity: 0;
+            position: absolute;
         }
+
+        .koltuk label {
+            cursor: pointer;
+            display: block;
+        }
+
+    .dolu {
+        background-color: #ff6347; /* Turuncu renk */
+        color: #fff;
+    }
+
+    .bos {
+        background-color: #32cd32; /* Yeşil renk */
+        color: #fff;
+    }
+
+    .koltuk:hover {
+        transform: scale(1.1);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .dolu:hover {
+        transform: none;
+        box-shadow: none;
+    }
+
+    .koltuk-radio:checked + label {
+        font-weight: bold;
+        text-decoration: underline;
+    }
 </style>
