@@ -9,97 +9,97 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = UcakRezervasyon
 build_property.RootNamespace = UcakRezervasyon
-build_property.ProjectDir = C:\Users\Kheizarjr\OneDrive\Belgeler\GitHub\UcakRezervasyon\Uçakrezervasyon\Uçakrezervasyon\
+build_property.ProjectDir = c:\Users\Kheizarjr\OneDrive\Belgeler\GitHub\UcakRezervasyon\Uçakrezervasyon\Uçakrezervasyon\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Kheizarjr\OneDrive\Belgeler\GitHub\UcakRezervasyon\Uçakrezervasyon\Uçakrezervasyon
+build_property.MSBuildProjectDirectory = c:\Users\Kheizarjr\OneDrive\Belgeler\GitHub\UcakRezervasyon\Uçakrezervasyon\Uçakrezervasyon
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Kheizarjr/OneDrive/Belgeler/GitHub/UcakRezervasyon/Uçakrezervasyon/Uçakrezervasyon/Views/guzergahs/Create.cshtml]
+[c:/Users/Kheizarjr/OneDrive/Belgeler/GitHub/UcakRezervasyon/Uçakrezervasyon/Uçakrezervasyon/Views/guzergahs/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZ3V6ZXJnYWhzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kheizarjr/OneDrive/Belgeler/GitHub/UcakRezervasyon/Uçakrezervasyon/Uçakrezervasyon/Views/guzergahs/Delete.cshtml]
+[c:/Users/Kheizarjr/OneDrive/Belgeler/GitHub/UcakRezervasyon/Uçakrezervasyon/Uçakrezervasyon/Views/guzergahs/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZ3V6ZXJnYWhzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kheizarjr/OneDrive/Belgeler/GitHub/UcakRezervasyon/Uçakrezervasyon/Uçakrezervasyon/Views/guzergahs/Details.cshtml]
+[c:/Users/Kheizarjr/OneDrive/Belgeler/GitHub/UcakRezervasyon/Uçakrezervasyon/Uçakrezervasyon/Views/guzergahs/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZ3V6ZXJnYWhzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kheizarjr/OneDrive/Belgeler/GitHub/UcakRezervasyon/Uçakrezervasyon/Uçakrezervasyon/Views/guzergahs/Edit.cshtml]
+[c:/Users/Kheizarjr/OneDrive/Belgeler/GitHub/UcakRezervasyon/Uçakrezervasyon/Uçakrezervasyon/Views/guzergahs/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZ3V6ZXJnYWhzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kheizarjr/OneDrive/Belgeler/GitHub/UcakRezervasyon/Uçakrezervasyon/Uçakrezervasyon/Views/guzergahs/Index.cshtml]
+[c:/Users/Kheizarjr/OneDrive/Belgeler/GitHub/UcakRezervasyon/Uçakrezervasyon/Uçakrezervasyon/Views/guzergahs/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZ3V6ZXJnYWhzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kheizarjr/OneDrive/Belgeler/GitHub/UcakRezervasyon/Uçakrezervasyon/Uçakrezervasyon/Views/Home/Index.cshtml]
+[c:/Users/Kheizarjr/OneDrive/Belgeler/GitHub/UcakRezervasyon/Uçakrezervasyon/Uçakrezervasyon/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kheizarjr/OneDrive/Belgeler/GitHub/UcakRezervasyon/Uçakrezervasyon/Uçakrezervasyon/Views/Home/Privacy.cshtml]
+[c:/Users/Kheizarjr/OneDrive/Belgeler/GitHub/UcakRezervasyon/Uçakrezervasyon/Uçakrezervasyon/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kheizarjr/OneDrive/Belgeler/GitHub/UcakRezervasyon/Uçakrezervasyon/Uçakrezervasyon/Views/Shared/Error.cshtml]
+[c:/Users/Kheizarjr/OneDrive/Belgeler/GitHub/UcakRezervasyon/Uçakrezervasyon/Uçakrezervasyon/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kheizarjr/OneDrive/Belgeler/GitHub/UcakRezervasyon/Uçakrezervasyon/Uçakrezervasyon/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/Kheizarjr/OneDrive/Belgeler/GitHub/UcakRezervasyon/Uçakrezervasyon/Uçakrezervasyon/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kheizarjr/OneDrive/Belgeler/GitHub/UcakRezervasyon/Uçakrezervasyon/Uçakrezervasyon/Views/ucaks/Create.cshtml]
+[c:/Users/Kheizarjr/OneDrive/Belgeler/GitHub/UcakRezervasyon/Uçakrezervasyon/Uçakrezervasyon/Views/ucaks/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdWNha3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kheizarjr/OneDrive/Belgeler/GitHub/UcakRezervasyon/Uçakrezervasyon/Uçakrezervasyon/Views/ucaks/Delete.cshtml]
+[c:/Users/Kheizarjr/OneDrive/Belgeler/GitHub/UcakRezervasyon/Uçakrezervasyon/Uçakrezervasyon/Views/ucaks/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdWNha3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kheizarjr/OneDrive/Belgeler/GitHub/UcakRezervasyon/Uçakrezervasyon/Uçakrezervasyon/Views/ucaks/Details.cshtml]
+[c:/Users/Kheizarjr/OneDrive/Belgeler/GitHub/UcakRezervasyon/Uçakrezervasyon/Uçakrezervasyon/Views/ucaks/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdWNha3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kheizarjr/OneDrive/Belgeler/GitHub/UcakRezervasyon/Uçakrezervasyon/Uçakrezervasyon/Views/ucaks/Edit.cshtml]
+[c:/Users/Kheizarjr/OneDrive/Belgeler/GitHub/UcakRezervasyon/Uçakrezervasyon/Uçakrezervasyon/Views/ucaks/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdWNha3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kheizarjr/OneDrive/Belgeler/GitHub/UcakRezervasyon/Uçakrezervasyon/Uçakrezervasyon/Views/ucaks/Index.cshtml]
+[c:/Users/Kheizarjr/OneDrive/Belgeler/GitHub/UcakRezervasyon/Uçakrezervasyon/Uçakrezervasyon/Views/ucaks/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdWNha3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kheizarjr/OneDrive/Belgeler/GitHub/UcakRezervasyon/Uçakrezervasyon/Uçakrezervasyon/Views/ucus/Create.cshtml]
+[c:/Users/Kheizarjr/OneDrive/Belgeler/GitHub/UcakRezervasyon/Uçakrezervasyon/Uçakrezervasyon/Views/ucus/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdWN1c1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kheizarjr/OneDrive/Belgeler/GitHub/UcakRezervasyon/Uçakrezervasyon/Uçakrezervasyon/Views/ucus/Delete.cshtml]
+[c:/Users/Kheizarjr/OneDrive/Belgeler/GitHub/UcakRezervasyon/Uçakrezervasyon/Uçakrezervasyon/Views/ucus/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdWN1c1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kheizarjr/OneDrive/Belgeler/GitHub/UcakRezervasyon/Uçakrezervasyon/Uçakrezervasyon/Views/ucus/Details.cshtml]
+[c:/Users/Kheizarjr/OneDrive/Belgeler/GitHub/UcakRezervasyon/Uçakrezervasyon/Uçakrezervasyon/Views/ucus/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdWN1c1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kheizarjr/OneDrive/Belgeler/GitHub/UcakRezervasyon/Uçakrezervasyon/Uçakrezervasyon/Views/ucus/Edit.cshtml]
+[c:/Users/Kheizarjr/OneDrive/Belgeler/GitHub/UcakRezervasyon/Uçakrezervasyon/Uçakrezervasyon/Views/ucus/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdWN1c1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kheizarjr/OneDrive/Belgeler/GitHub/UcakRezervasyon/Uçakrezervasyon/Uçakrezervasyon/Views/ucus/Index.cshtml]
+[c:/Users/Kheizarjr/OneDrive/Belgeler/GitHub/UcakRezervasyon/Uçakrezervasyon/Uçakrezervasyon/Views/ucus/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdWN1c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kheizarjr/OneDrive/Belgeler/GitHub/UcakRezervasyon/Uçakrezervasyon/Uçakrezervasyon/Views/_ViewImports.cshtml]
+[c:/Users/Kheizarjr/OneDrive/Belgeler/GitHub/UcakRezervasyon/Uçakrezervasyon/Uçakrezervasyon/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kheizarjr/OneDrive/Belgeler/GitHub/UcakRezervasyon/Uçakrezervasyon/Uçakrezervasyon/Views/_ViewStart.cshtml]
+[c:/Users/Kheizarjr/OneDrive/Belgeler/GitHub/UcakRezervasyon/Uçakrezervasyon/Uçakrezervasyon/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kheizarjr/OneDrive/Belgeler/GitHub/UcakRezervasyon/Uçakrezervasyon/Uçakrezervasyon/Views/Shared/_Layout.cshtml]
+[c:/Users/Kheizarjr/OneDrive/Belgeler/GitHub/UcakRezervasyon/Uçakrezervasyon/Uçakrezervasyon/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-oxk5virvah

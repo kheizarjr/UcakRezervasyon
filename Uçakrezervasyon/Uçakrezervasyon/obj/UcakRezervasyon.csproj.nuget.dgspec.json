@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kheizarjr\\OneDrive\\Belgeler\\GitHub\\UcakRezervasyon\\Uçakrezervasyon\\Uçakrezervasyon\\UcakRezervasyon.csproj": {}
+    "c:\\Users\\Kheizarjr\\OneDrive\\Belgeler\\GitHub\\UcakRezervasyon\\Uçakrezervasyon\\Uçakrezervasyon\\UcakRezervasyon.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kheizarjr\\OneDrive\\Belgeler\\GitHub\\UcakRezervasyon\\Uçakrezervasyon\\Uçakrezervasyon\\UcakRezervasyon.csproj": {
+    "c:\\Users\\Kheizarjr\\OneDrive\\Belgeler\\GitHub\\UcakRezervasyon\\Uçakrezervasyon\\Uçakrezervasyon\\UcakRezervasyon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kheizarjr\\OneDrive\\Belgeler\\GitHub\\UcakRezervasyon\\Uçakrezervasyon\\Uçakrezervasyon\\UcakRezervasyon.csproj",
+        "projectUniqueName": "c:\\Users\\Kheizarjr\\OneDrive\\Belgeler\\GitHub\\UcakRezervasyon\\Uçakrezervasyon\\Uçakrezervasyon\\UcakRezervasyon.csproj",
         "projectName": "UcakRezervasyon",
-        "projectPath": "C:\\Users\\Kheizarjr\\OneDrive\\Belgeler\\GitHub\\UcakRezervasyon\\Uçakrezervasyon\\Uçakrezervasyon\\UcakRezervasyon.csproj",
+        "projectPath": "c:\\Users\\Kheizarjr\\OneDrive\\Belgeler\\GitHub\\UcakRezervasyon\\Uçakrezervasyon\\Uçakrezervasyon\\UcakRezervasyon.csproj",
         "packagesPath": "C:\\Users\\Kheizarjr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kheizarjr\\OneDrive\\Belgeler\\GitHub\\UcakRezervasyon\\Uçakrezervasyon\\Uçakrezervasyon\\obj\\",
+        "outputPath": "c:\\Users\\Kheizarjr\\OneDrive\\Belgeler\\GitHub\\UcakRezervasyon\\Uçakrezervasyon\\Uçakrezervasyon\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
